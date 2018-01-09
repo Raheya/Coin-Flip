@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" rel="stylesheet">
+  </head>
+  <body>
+      <div class="row">
+        <form onsubmit="return false;" class="form-inline offset-md-4">
+          <div class="form-group">
+            <input id="inpt_value" class="form-control" placeholder="Enter a number"></input>
+          </div>
+           <button id="btn_flip" onclick='coinFlip(document.getElementById("inpt_value").value)' class="btn btn-primary">Flip</button>
+        </form>
+
+       </div>
+       <div class="row offset-md-4">
+         <span>Result:&nbsp</span>
+         <span id="output"></span>
+       </div>
+
+    <script src="./js/coin_flip.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js"></script>
+
+  </body>
+<html>
